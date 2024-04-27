@@ -70,6 +70,22 @@
     font-style: normal;
 }
 /* Fin Fonts */
+/* Inicio Topper */
+.topper-index{
+    background-color: var(--accent);
+    color: var(--text);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 70px;
+    font-weight: 600;
+    
+}
+.topper-link{
+    text-decoration: none!important;
+    font-style: normal;
+    color: var(--text);
+}
+/* Fin Topper */
 /* Inicio Navbar */
 .logo{
     width: 70px;
@@ -81,9 +97,9 @@
 }
 
 .navbar{
-    background-color: var(--primary)!important;
-    transition: .6s!important;
-    color: var(--text)!important;
+    background-color: var(--primary);
+    transition: .1s!important;
+    color: var(--secondary)!important;
     
 
     
@@ -128,7 +144,7 @@
 /* Fin Navbar */
 /* Inicio Hero */
 main{
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 h1{
     font-size: 46px!important;
@@ -237,27 +253,23 @@ h2{
 
 
 /* Inicio Hero */
-main{
-    margin-top: 2rem;
-}
+
 .contact-hero-img{
-    background: linear-gradient(180deg, #1f417f 20%, #0d1c36 100%);
-    background-size: cover!important;
-    background-position: 90% 50%;
+    
     width: 100%;
-    min-height: 40vh;
-    padding-top: 7.8rem;
+    padding-top: 4rem;
+    
 }
 h1{
     font-size: 46px!important;
-    color: var(--secondary)!important;
+    color: var(--text)!important;
     font-weight: 600!important;
 }
 .contact-hero-img p{
-    color: var(--secondary)!important;
+    color: var(--text)!important;
 }
 .contact-hero-img a{
-    color: var(--secondary)!important;
+    color: var(--text)!important;
 }
 /* Fin Hero */
 /* Fin Hero */

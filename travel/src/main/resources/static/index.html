@@ -12,6 +12,11 @@
     <title>MTT Travel & Tour Inc.</title>
 </head>
 <body>
+    <!-- Inicio Topper -->
+    <div class="topper-index">
+      <a class="topper-link" href="./assets/pages/contact.html">For any inquiries, contact us!</a>
+    </div>
+    <!-- Fin Topper -->
     <!-- Inicio Navbar -->
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
         <div class="container">
@@ -28,7 +33,7 @@
                 <a class="nav-link nav-hover" href="./assets/pages/packages.html">Travel & Tours</a>
               </li>
               <li class="nav-item pe-3">
-                <a class="nav-link nav-hover" href="#">Blogs</a>
+                <a class="nav-link nav-hover" href="./assets/pages/blogs.html">Blogs</a>
               </li>
               <li class="nav-item pe-3">
                 <a class="nav-link nav-hover" href="./assets/pages/contact.html">Contact</a>
@@ -52,7 +57,7 @@
               </nav>
               <div class="d-flex flex-column ">
                 <h1 class="bolder">
-                  Expand your  horizons with our guided tours.
+                  Expand your horizons with our guided tours.
                 </h1>
                 <p>
                   Travel on your own terms with our expertly curated group experiences. Our itineraries provide the perfect blend of flexibility and guidance, ensuring a memorable adventure.
@@ -64,12 +69,7 @@
         <!-- Fin Hero -->
       <!-- Inicio Hero -->
       <main class="">
-        <section class="d-flex flex-column pt-5 container ">
-            <div>
-              
-            </div>
-            <div></div>
-        </section>
+        
         <section class="d-flex flex-column container">
           <div class="d-flex mb-4 hero-section-one">
             <div class="card card-image card-big me-4 d-flex flex-column" style="width: 18rem;">
@@ -313,15 +313,20 @@
 
     
       <script>
-    
+        document.getElementById("navbar").style.marginTop = "2rem";
         window.onscroll = function() {scrollFunction()};
     
             function scrollFunction() {
-            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
                 document.getElementById("navbar").style.padding = "1px 1px";
-    
-            } else {
+                
+                document.getElementById("navbar").style.marginTop = "0rem";
+                
+                
+              } else {
                 document.getElementById("navbar").style.padding = "10px 10px";
+                
+                document.getElementById("navbar").style.marginTop = "2rem";
     
             }
         }
