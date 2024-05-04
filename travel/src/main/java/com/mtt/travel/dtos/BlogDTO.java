@@ -6,6 +6,7 @@ import java.sql.Clob;
 
 public class BlogDTO {
 
+    private long id;
     private String titleMain;
 
     private String imageMain;
@@ -50,6 +51,7 @@ public class BlogDTO {
     }
 
     public BlogDTO(Blog blog) {
+        this.id = blog.getId();
         this.titleMain = blog.getTitleMain();
         this.imageMain = blog.getImageMain();
         this.isActive = blog.getActive();
@@ -79,6 +81,10 @@ public class BlogDTO {
         this.image7 = blog.getImage7();
     }
 
+
+    public long getId() {
+        return id;
+    }
 
     public String getTitleMain() {
         return titleMain;
